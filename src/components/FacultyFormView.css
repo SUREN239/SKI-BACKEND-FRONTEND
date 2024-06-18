@@ -1,0 +1,91 @@
+/* FacultyFormView.css */
+
+.container {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.heading {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.tableContainer {
+  margin-bottom: 20px;
+  overflow-x: auto;
+}
+
+.headerRow, .row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 10px;
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 4px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+  flex: 1;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: left;
+  padding: 10px;
+  border-bottom: 2px solid #000;
+  margin-bottom: 10px;
+}
+
+.column {
+  flex: 1;
+  font-size: 16px;
+  padding: 10px;
+}
+
+.editButton {
+  margin-right: 10px;
+  padding: 10px 20px;
+  background-color: #007BFF;
+  color: #fff;
+  text-align: center;
+  border-radius: 4px;
+  cursor: pointer;
+  border: none;
+  transition: background-color 0.3s;
+}
+
+.editButton:hover {
+  background-color: #0056b3;
+}
+
+.panel {
+  margin-bottom: 20px;
+}
+
+.react-tabs__tab--selected {
+  background-color: #007BFF;
+  color: white;
+}
+
+.react-tabs__tab-list {
+  margin-bottom: 20px;
+  border-bottom: 2px solid #007BFF;
+}
+
+.react-tabs__tab {
+  margin-right: 10px;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 4px 4px 0 0;
+}
+
+.react-tabs__tab--selected {
+  background-color: #007BFF;
+  color: #fff;
+  border-bottom: none;
+}
